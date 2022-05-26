@@ -16,6 +16,7 @@ public class MessageRunner implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("This message is to test the uodated file");
+		System.out.println("This is second update from the commit");
 		System.out.println("FROM MESSAGE RUNNER");
 		System.out.println(con);
 	}
